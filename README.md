@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+# GameHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+GameHub is a prototype of a video game discovery web application that helps you find new and interesting games to play! In this application, you can find games based on their title, genre, platform, and more useful filters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application is no longer in active development, but you can find the link for the final build here ([https://game-hub-five-rose.vercel.app/](https://game-hub-five-rose.vercel.app/)).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The tools used to build this prototype are listed down below:
 
-- Configure the top-level `parserOptions` property like this:
+- React + TypeScript + Vite
+- CSS and Chakra UI
+- RAWG API (interface is also based off of [https://rawg.io/](https://rawg.io/))
+- Axios (for handling HTTP requests)
+- Zod (form validation)
+- Vercel (cloud hosting)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+I hope you enjoy this application, and thank you for taking the time to check this out! -Rex
